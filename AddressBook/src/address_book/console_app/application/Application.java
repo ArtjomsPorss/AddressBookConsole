@@ -1,11 +1,10 @@
-package address_book.console_app.start;
+package address_book.console_app.application;
 
 import java.util.ArrayList;
-import address_book.console_app.application.AddressBookEntry;
+
 import address_book.console_app.database.CSVSaverLoader;
 import address_book.console_app.ui.ConsoleUserInterface;
 
-//TEST
 public class Application {
 	private ArrayList<AddressBookEntry> entries = new ArrayList<AddressBookEntry>();
 	private ConsoleUserInterface userInterface = new ConsoleUserInterface();

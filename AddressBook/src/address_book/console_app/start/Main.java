@@ -1,6 +1,6 @@
-package address_book.console_app.application;
+package address_book.console_app.start;
 
-import address_book.console_app.start.Application;
+import address_book.console_app.application.Application;
 
 public class Main {
 
